@@ -1,0 +1,6 @@
+libraryDependencies += "org.scalaj" %% "scalaj-http" % "2.4.2"
+libraryDependencies += "org.json4s" %% "json4s-native" % "4.0.4"
+libraryDependencies += "org.json4s" %% "json4s-jackson" % "4.0.4"
+libraryDependencies += "org.apache.commons" % "commons-configuration2" % "2.7"
+libraryDependencies += "org.apache.httpcomponents" % "httpclient" % "4.5.13"
+libraryDependencies += "com.google.code.gson" % "gson" % "1.7.1"
