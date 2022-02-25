@@ -8,6 +8,7 @@ To generate your monthly spotify wrapped playlist, follow these steps:
         go to Postman -> click on your Spotify collection -> scroll to bottom -> click "Get New Access Token"
         select "Use Token" then copy the generated token
         paste token in place of the "token" value in Runnable.scala
+        
 2. In Runnable.scala, set the location of the PrintWriter file to wherever you want to save your listening history
 
 3. To run the code:
