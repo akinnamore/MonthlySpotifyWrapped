@@ -7,7 +7,6 @@ import scalaj.http.{HttpRequest, HttpOptions, Http}
 
 
 object PlaylistEndpoint extends SpotifyEndpoint {
-
     implicit val formats: Formats = DefaultFormats
 
     val makePlaylistEndpoint = baseAPIUrl + "/v1/users/" + userID + "/playlists"

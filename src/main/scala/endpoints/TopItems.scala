@@ -7,7 +7,6 @@ import scalaj.http.{HttpRequest, HttpOptions, Http}
 
 
 object TopItems extends SpotifyEndpoint {
-
   implicit val formats: Formats = DefaultFormats
 
   val limit = "30"

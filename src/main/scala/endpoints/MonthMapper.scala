@@ -1,7 +1,6 @@
 package endpoints
 
 object MonthMapper {
-
   def getMonth(month: String): String = {
     month match {
       case "01" => "January"
@@ -19,5 +18,4 @@ object MonthMapper {
       case _ => throw new RuntimeException("Invalid month")
     }
   }
-
 }
