@@ -13,7 +13,6 @@ To generate your monthly spotify wrapped playlist, follow these steps:
 
 3. To run the code:
     in your terminal, navigate to the root directory of project
-        in my case, this is /Users/allisonkinnamore/Desktop/scala/MonthlySpotifyWrapped
     run "sbt" in terminal to start sbt server
     run "compile"
     run "run"
