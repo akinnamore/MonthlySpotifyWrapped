@@ -7,7 +7,8 @@ import java.time.format.DateTimeFormatter
 object Runnable {
   def main(args: Array[String]): Unit = {
 
-    val token = "BQBW9T5zbn8DkQt0GXhOLfPJliz0NsV_F7cDMfbvAqoo55ECOdZ2o5uwboFayjNfFR1lYFJ54rsvRwlvHxaWei_tKoAIJAAkuXoIV91Bte4MvxoPfWwhpEIWtLN-plEXzYl6wzMl4XwH-xGGvVtHyY3CTluNDWSXz-UgQz9TPnRSB2wJpV_bRKOZtlBmYatfgFQqkVleIXltaEel3Qc2JppDHYu8fbdVVjTFXmM"
+    // do this more gracefully when adding front end with Spotify auth
+    val token = "your token"
 
     // get current month and year
     val month = MonthMapper.getMonth(DateTimeFormatter.ofPattern("MM").format(LocalDate.now))
