@@ -3,10 +3,9 @@
 
 To generate your monthly spotify wrapped playlist, follow these steps:
 
-1: Generate your Spotify developer's OAuth token
+1: Generate your Spotify developer's client ID and client secret
     Log in to Spotify Dev dashboard with your Spotify account: https://developer.spotify.com/dashboard/
         Create a new App to generate your client ID and client secret
-        
         
 2. In Postman, make a new Spotify collection 
     on the Authorization tab of the collection, choose "OAuth 2.0" for the type
