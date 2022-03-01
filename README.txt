@@ -27,10 +27,10 @@ To generate your monthly spotify wrapped playlist, follow these steps:
 
 4. In SpotifyEndpoint.scala, change userID to the userID of your Spotify account
 
-3. To run the code:
+5. To run the code:
     in your terminal, navigate to the root directory of project
     run "sbt" in terminal to start scala shell (you will need to download sbt through SDKMAN! or homebrew: https://www.scala-sbt.org/download.html)
     run "compile"
     run "run"
 
-4. Enjoy your playlist!
+6. Enjoy your playlist!
