@@ -29,7 +29,7 @@ To generate your monthly spotify wrapped playlist, follow these steps:
 
 3. To run the code:
     in your terminal, navigate to the root directory of project
-    run "sbt" in terminal to start scala shell
+    run "sbt" in terminal to start scala shell (you will need to download sbt through SDKMAN! or homebrew: https://www.scala-sbt.org/download.html)
     run "compile"
     run "run"
 
