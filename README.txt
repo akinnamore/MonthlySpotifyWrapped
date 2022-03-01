@@ -11,9 +11,9 @@ To generate your monthly spotify wrapped playlist, follow these steps:
     on the Authorization tab of the collection, choose "OAuth 2.0" for the type
     Scroll down to "Configure New Token"
         for "Grant Type" select "Authorization Code"
-        Callback URL = "https://oauth.pstmn.io/v1/browser-callback"
-        Auth URL = "https://accounts.spotify.com/authorize"
-        Access Token URL = "https://accounts.spotify.com/api/token"
+        Callback URL = https://oauth.pstmn.io/v1/browser-callback
+        Auth URL = https://accounts.spotify.com/authorize
+        Access Token URL = https://accounts.spotify.com/api/token
         Client ID = { your client ID from Spotivy Dev Dashboard }
         Client secret = { your client ID from Spotivy Dev Dashboard }
         Scope = "playlist-modify-public playlist-read-private playlist-modify-private user-top-read"
