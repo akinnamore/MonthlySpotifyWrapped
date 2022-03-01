@@ -6,6 +6,7 @@ To generate your monthly spotify wrapped playlist, follow these steps:
 1: Generate your Spotify developer's client ID and client secret
     Log in to Spotify Dev dashboard with your Spotify account: https://developer.spotify.com/dashboard/
         Create a new App to generate your client ID and client secret
+        Edit the App settings and add https://oauth.pstmn.io/v1/browser-callback as the redirect URI
         
 2. In Postman, make a new Spotify collection 
     on the Authorization tab of the collection, choose "OAuth 2.0" for the type
